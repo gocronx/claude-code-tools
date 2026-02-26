@@ -1,0 +1,47 @@
+{
+  "name": "claude-code-tools",
+  "owner": {
+    "name": "gocronx",
+    "url": "https://github.com/gocronx"
+  },
+  "metadata": {
+    "description": "Personal Claude Code toolkit by gocronx — agents, skills, hooks, rules, and commands for daily development"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-tools",
+      "source": "./",
+      "description": "Curated collection of agents, skills, commands, hooks, and rules. Includes full Rust support, Obsidian skills, and reading workflows.",
+      "author": {
+        "name": "gocronx",
+        "url": "https://github.com/gocronx"
+      },
+      "homepage": "https://github.com/gocronx/claude-code-tools",
+      "repository": "https://github.com/gocronx/claude-code-tools",
+      "license": "MIT",
+      "keywords": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "rust",
+        "tdd",
+        "code-review",
+        "security",
+        "obsidian",
+        "reading"
+      ],
+      "category": "workflow",
+      "tags": [
+        "agents",
+        "skills",
+        "hooks",
+        "commands",
+        "rust",
+        "tdd",
+        "code-review",
+        "security"
+      ]
+    }
+  ]
+}
