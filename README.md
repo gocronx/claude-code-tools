@@ -30,7 +30,7 @@ Personal Claude Code toolkit — agents, skills, hooks, rules, and commands for 
 **Plugin** (agents, skills, commands) — reinstall to get the latest version:
 
 ```bash
-/plugin uninstall claude-code-tools@claude-code-tools
+/plugin uninstall claude-code-tools
 /plugin install claude-code-tools@claude-code-tools
 ```
 
@@ -59,6 +59,7 @@ cp -r rules/typescript/* ~/.claude/rules/
 | `refactor` | 重构清理专家，技术债处理、代码结构优化 | sonnet |
 | `refactor-cleaner` | Remove dead code, consolidate duplicates | sonnet |
 | `build-error-resolver` | Fix TypeScript/build errors with minimal changes | sonnet |
+| `fullstack-engineer` | End-to-end feature implementation across all stack layers | sonnet |
 | `e2e-runner` | Generate and maintain Playwright E2E tests | sonnet |
 | `doc-updater` | Keep documentation in sync with code | haiku |
 | `go-reviewer` | Idiomatic Go, concurrency, error handling | sonnet |

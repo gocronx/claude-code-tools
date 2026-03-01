@@ -28,7 +28,7 @@
 **插件**（agents、skills、commands）— 重新安装即可获取最新版本：
 
 ```bash
-/plugin uninstall claude-code-tools@claude-code-tools
+/plugin uninstall claude-code-tools
 /plugin install claude-code-tools@claude-code-tools
 ```
 
@@ -56,6 +56,7 @@ cp -r rules/typescript/* ~/.claude/rules/
 | `tdd-guide` | 强制测试先行方法论 | sonnet |
 | `refactor-cleaner` | 清除死代码、合并重复 | sonnet |
 | `build-error-resolver` | 修复 TypeScript/构建错误，改动最小 | sonnet |
+| `fullstack-engineer` | 端到端功能实现，覆盖前后端和数据库全链路 | sonnet |
 | `e2e-runner` | 生成和维护 Playwright E2E 测试 | sonnet |
 | `doc-updater` | 保持文档与代码同步 | haiku |
 | `go-reviewer` | 惯用 Go、并发、错误处理 | sonnet |
