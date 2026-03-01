@@ -31,6 +31,7 @@
     "./agents/database-reviewer.md",
     "./agents/doc-updater.md",
     "./agents/e2e-runner.md",
+    "./agents/fullstack-engineer.md",
     "./agents/go-build-resolver.md",
     "./agents/go-reviewer.md",
     "./agents/planner.md",
