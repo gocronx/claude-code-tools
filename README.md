@@ -56,6 +56,7 @@ cp -r rules/typescript/* ~/.claude/rules/
 | `code-reviewer` | Code quality, security, best practices | sonnet |
 | `security-reviewer` | OWASP Top 10, secrets detection, vulnerability analysis | sonnet |
 | `tdd-guide` | Enforce write-tests-first methodology | sonnet |
+| `refactor` | 重构清理专家，技术债处理、代码结构优化 | sonnet |
 | `refactor-cleaner` | Remove dead code, consolidate duplicates | sonnet |
 | `build-error-resolver` | Fix TypeScript/build errors with minimal changes | sonnet |
 | `e2e-runner` | Generate and maintain Playwright E2E tests | sonnet |
@@ -67,7 +68,7 @@ cp -r rules/typescript/* ~/.claude/rules/
 | `rust-build-resolver` | Fix borrow checker and compilation errors | sonnet |
 | `database-reviewer` | PostgreSQL optimization, schema design, RLS | sonnet |
 
-### Skills (59)
+### Skills (58)
 
 Language patterns, framework guides, architecture patterns, and workflow definitions.
 
@@ -94,7 +95,7 @@ rules/
 
 ### Commands
 
-32 slash commands — `/plan`, `/tdd`, `/code-review`, `/build-fix`, `/e2e`, `/go-review`, `/python-review`, `/security-scan`, `/refactor-clean`, `/orchestrate`, and more.
+33 slash commands — `/plan`, `/tdd`, `/code-review`, `/build-fix`, `/e2e`, `/go-review`, `/python-review`, `/security-scan`, `/refactor-clean`, `/orchestrate`, and more.
 
 ---
 

@@ -10,8 +10,8 @@ This file provides guidance to Claude Code when working in this repository.
 
 ```
 claude-code-tools/
-├── agents/       # Subagents for delegation (15 agents)
-├── skills/       # Workflow definitions and domain knowledge (59 skills)
+├── agents/       # Subagents for delegation (16 agents)
+├── skills/       # Workflow definitions and domain knowledge (58 skills)
 ├── commands/     # Slash commands (/tdd, /plan, /code-review, etc.)
 ├── hooks/        # Trigger-based automations (hooks.json + scripts/)
 ├── scripts/      # Node.js hook implementations
